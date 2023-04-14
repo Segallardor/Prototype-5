@@ -621,7 +621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -40}
+  m_AnchoredPosition: {x: 148, y: -43}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1437348365
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Score
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -671,13 +671,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -927,7 +927,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1881122522}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b44377d08c8cdd4429f18ef3f3de3140, type: 3}
+  m_Script: {fileID: 11500000, guid: 698c9fdcc01f76b4b920c8c3dfcb58aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targets:
@@ -935,6 +935,7 @@ MonoBehaviour:
   - {fileID: 3534419267739790104, guid: 31cc1a8b468b145489f67b2c7f0fa906, type: 3}
   - {fileID: 8427241246610547808, guid: 4d07e158720634702b8f0ce60615245c, type: 3}
   - {fileID: 7467536912737590941, guid: 487f467e8157d438e99ea3eb57b838c0, type: 3}
+  scoreText: {fileID: 1437348365}
 --- !u!4 &1881122524
 Transform:
   m_ObjectHideFlags: 0
